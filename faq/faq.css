@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+.Question1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.answer{
+    width: 400px;
+    margin: auto;
+}
+.answer p{
+   display: none;
+}
+.answer .show{
+    display: block;
+}
