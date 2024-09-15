@@ -1,0 +1,57 @@
+*{
+ margin: 0;
+ background-color: black;
+ color: aliceblue;
+}
+.main-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 42, 42);
+}
+.heading{
+    margin-left: 50px;
+}
+.heading h1{
+ background-color:rgb(44, 42, 42) ;
+
+}
+.heading h1 span{
+    color: #73a1c3;
+    background-color:rgb(44, 42, 42) ; 
+}
+.main-box .btn{
+    margin-right: 20px;
+}
+.main-box .btn button{
+    font-size: 1.3rem;
+}
+.content{ 
+   position: absolute;
+    left: 850px;
+     top:-150px; 
+    width: 400px;
+    height: 150px;
+    background-color:rgb(44, 42, 42) ;
+} 
+.content ul{
+    background-color: transparent;
+}
+.content ul li{
+ list-style: none;
+ line-height: 2rem;
+ background-color:transparent ;
+ font-size: 1.2rem;
+ text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.content {
+    top: -150px; /* initial state */
+    transition: top 0.5s; /* add a smooth transition effect */
+}
+
+.content.show {
+    top: 50px;
+}
