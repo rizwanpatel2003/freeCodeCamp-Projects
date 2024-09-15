@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.main-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.breakfast{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+   
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    }
+    .breakfast_img{
+       width: 300px;
+       height: 300px;
+    
+    }
+    .breakfast_cons{
+        width: 300px;
+        height: 300px;
+    }
+    img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .lunch{
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        
+        border: 2px solid black;
+        margin-top: 20px;
+        margin-left: 20px;
+    
+    }
+    .lunch_img{
+        width: 300px;
+        height: 300px;
+    }
+    .lunch_cons{
+        width: 300px;
+        height: 300px;
+    }
+    .dinner{
+        display: flex;
+    justify-content: space-around;
+    width: 40%;
+    
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    }
+    .dinner_img{
+        width: 300px;
+        
+    }
+    .dinner_cons{
+    width: 300px;
+    
+    }
+   .drinks{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+   }
+   .drinks_img{
+    width: 300px;
+    
+
+   }
+   .drinks_img img{
+     width: 150px;
+   }
+   .dinner_condrinks_cons{
+    width: 300px;
+    
+   }
+   .breakfastoff{
+    display: none;
+   }
+   .drinksoff{
+    display: none;
+   }
+   .dinneroff{
+    display: none;
+   }
+   .lunchoff{
+    display: none;
+   }
