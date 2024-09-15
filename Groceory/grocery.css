@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+
+}
+.main-box{
+display: block;
+   width: 600px;
+   height: 100vh;
+   margin: auto;
+   border: 1px solid black;
+   box-shadow: 2px 2px 10px;
+   margin-top: 100px;
+}
+.input-box{
+    height: 60px;
+    width:480px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.inp{
+    width: 80% ;
+    height: 20px;
+    margin: auto;
+}
+.list{
+    width:480px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+     margin: 10px;
+}
+.item p{
+   font-size: large;
+}
