@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    
+   
+}
+
+.playground{
+   position: relative;
+   height: 100vh;
+   width: 100%;
+
+}
+.bird{
+    position: absolute;
+     top: 360px;
+     left: 20px;
+     height: 50px;
+     width: 50px;
+     background-color: red;
+}
+.block{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 120px;
+    background-color: green;
+
+
+}
+.blockd{
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    width: 120px;
+    background-color: blue;
+
+
+}
